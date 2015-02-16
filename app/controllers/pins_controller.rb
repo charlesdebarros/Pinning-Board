@@ -1,7 +1,13 @@
 class PinsController < ApplicationController
 
+  before_action :find_pin, only: [:show, :edit, :update, :destroy]
+
   def index
     @pins = Pin.all
+  end
+
+  def show
+
   end
 
   def new
@@ -9,12 +15,22 @@ class PinsController < ApplicationController
   end
 
   def create
-    @pin = Pin.new params[:id]
+    @pin = Pin.new pin_params
+    if @pin.save
+      redirect_to @pin, notice: 'Pin successfully created!'
+    else
+      render 'new'
+    end
   end
 
   private
 
   def pin_params
-    params.require(:id).permit(:title, :description)
+    params.require(:pin).permit(:title, :description)
   end
+
+  def find_pin
+    @pin = Pin.find params[:id]
+  end
+
 end
