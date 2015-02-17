@@ -7,7 +7,6 @@ class PinsController < ApplicationController
   end
 
   def show
-
   end
 
   def new
@@ -21,6 +20,22 @@ class PinsController < ApplicationController
     else
       render 'new'
     end
+  end
+
+  def edit
+  end
+
+  def update
+    if @pin.save pin_params
+      redirect_to @pin, notice: 'Pin successfully updated!'
+    else
+      render 'edit'
+    end
+  end
+
+  def destroy
+    @pin.destroy
+    redirect_to root_path, notice: 'Pin successfully deleted!'
   end
 
   private
