@@ -1,6 +1,9 @@
 %h3= @pin.title
-
 %p= @pin.description
+%p 
+  %small 
+    Submitted by
+    = @pin.user.email
 
 = link_to 'Back', root_path, class: 'btn btn-default'
 = link_to 'Edit', edit_pin_path, class: 'btn btn-default'
