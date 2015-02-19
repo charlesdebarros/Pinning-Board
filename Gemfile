@@ -15,6 +15,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'haml', '~> 4.0.6'
 gem 'bootstrap-sass', '~> 3.3.3'
 gem 'sass-rails', '~> 5.0'
+gem 'autoprefixer-rails'
 gem 'simple_form', '~> 3.1.0'
 gem 'devise', '~> 3.4.1'
 
