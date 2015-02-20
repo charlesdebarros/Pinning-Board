@@ -9,9 +9,13 @@
           %li= msg
 
   .form-group
+    = f.input :image, html: { class: 'form-control'}
+
+  .form-group
     = f.input :title, html: { class: 'form-control'}
 
   .form-group
     = f.input :description, html: { class: 'form-control'}
 
   = f.button :submit, class: 'btn btn-default'
+  
