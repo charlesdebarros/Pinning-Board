@@ -83,7 +83,7 @@ nav {
   }
   .panel-body {
     padding: 35px;
-    h1 {
+    h1, h2, h3 {
       margin: 0 0 10px 0;
     }
     .description {
@@ -101,4 +101,12 @@ nav {
       padding-top: 8px;
     }
   }
+  .panel {
+    .panel-body {
+      img {
+        margin: auto;
+      }
+    }
+  }
 }
+
