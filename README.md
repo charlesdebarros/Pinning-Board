@@ -13,3 +13,10 @@ This is Pinterest Style application built using Ruby on Rails. This project is b
 * Simple Form 3.1.0
 * PaperClip 4.2.1
 * Devise 3.4.1
+* Masonry Rails 0.2.4
+* Act as Votable 0.10.0
+
+### TODO
+
+* Restricting 'editing' and 'deleting' to Pin's creator
+* Work on overall styling
