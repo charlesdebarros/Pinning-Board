@@ -2,6 +2,9 @@
 
 This is Pinterest Style application built using Ruby on Rails. This project is based on the Mackenzie Child series of tutorials ['12 in 12 weeks'](http://youtu.be/abcnfFS_DS8?list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-).
 
+![image](https://raw.githubusercontent.com/charlesdebarros/Pinning-Board/master/app/assets/images/screenshot.jpg)
+
+
 ### Technologies used:
 
 * Ruby 2.2.0
