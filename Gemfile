@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.6'
+ruby '2.3.7'
 gem 'acts_as_votable', '0.10.0'
 gem 'autoprefixer-rails', '5.1.5'
 gem 'bootstrap-sass', '3.3.3'
@@ -11,7 +11,7 @@ gem 'jbuilder', '2.2.6'
 gem 'jquery-rails', '4.0.4'
 gem 'masonry-rails', '0.2.4'
 gem 'paperclip', '5.2.1'
-gem 'pg', '0.20.0'
+gem 'pg', '0.21.0'
 gem 'rails', '4.2.7.1'
 gem 'sass-rails', '5.0.1'
 gem 'sdoc', '0.4.1', group: :doc
