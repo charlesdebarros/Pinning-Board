@@ -7,7 +7,7 @@ This is Pinterest Style application built using Ruby on Rails. This project is b
 
 ### Technologies used:
 
-* Ruby 2.5.X
+* Ruby 2.6.X
 * Rails 5.0.7.X
 * PostgreSQL 9.6.10
 * Haml 4.0.6
