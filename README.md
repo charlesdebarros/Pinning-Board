@@ -8,14 +8,14 @@ This is Pinterest Style application built using Ruby on Rails. This project is b
 ### Technologies used:
 
 * Ruby 2.6.X
-* Rails 5.0.7.X
+* Rails 5.2.X
 * PostgreSQL 9.6.10
-* Haml 4.0.6
-* Bootstrap-Sass 3.4.0
+* Haml 5.1.X
+* Bootstrap-Sass 3.4.X
 * Autoprefixer Rails 9.4.7
 * Simple Form 4.1.0
 * PaperClip 6.1.0
-* Devise 4.5.0
+* Devise 4.7.X
 * Masonry Rails 0.2.4
 * Act as Votable 0.12.0
 
