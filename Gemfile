@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 ruby '2.6.3'
@@ -12,7 +14,7 @@ gem 'jquery-rails'
 gem 'masonry-rails'
 gem 'paperclip'
 gem 'pg', '0.21.0'
-gem 'rails', '5.0.7.2'
+gem 'rails', '~>5.2.4'
 gem 'sass-rails'
 gem 'sdoc', group: :doc
 gem 'simple_form'
@@ -20,15 +22,6 @@ gem 'simple_form'
 gem 'mini_racer'
 gem 'turbolinks'
 gem 'uglifier'
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 
 group :development, :test do
   gem 'byebug'
@@ -38,3 +31,12 @@ end
 group :development do
   gem 'web-console'
 end
+
+# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
+
+# Use Unicorn as the app server
+# gem 'unicorn'
+
+# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development
