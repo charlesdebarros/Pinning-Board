@@ -4,16 +4,31 @@ This is Pinterest Style application built using Ruby on Rails. This project is b
 
 ![image](https://raw.githubusercontent.com/charlesdebarros/Pinning-Board/master/app/assets/images/screenshot.png)
 
+### Installing Pinning Board
+
+* Clone repo
+* CD into repo's directory by running ```cd Pinning-Board/```
+* Run ```bundle install```
+* Create and migrate the dabatase by running the ``` rails db:create db:migrate``` command
+ * If you want some dummy data to work with, run the ```rails db:seed``` command after creating and migrating the database
+ * Check the ```db/seeds.rb``` file for the dummy user's login details
+* Start Rails server running the ```rails server``` command
+* Open ```localhost:3000``` URL in your favourite browser
+* Have fun!
+
+### Troubleshooting
+
+If, when running ```bundle install```, you come up with any errors, delete the '_Gemfile.lock_' file by running the ```rm Gemfile.lock``` command and then rerun the ```bundle install``` command. Any possible errors may very well be caused by a 'newer' version of any of the gems used in the app.
 
 ### Technologies used:
 
-* Ruby 2.6.X
-* Rails 5.2.X
-* PostgreSQL 9.6.10
-* Haml 5.1.X
+* Ruby 2.7.X
+* Rails 6.1.X
+* PostgreSQL 12.6
+* Haml 5.2.X
 * Bootstrap-Sass 3.4.X
 * Autoprefixer Rails 9.4.7
-* Simple Form 4.1.0
+* Simple Form 5.1.X
 * PaperClip 6.1.0
 * Devise 4.7.X
 * Masonry Rails 0.2.4
