@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-ruby '2.7.2'
+ruby '2.7.3'
 
 gem 'acts_as_votable'
 gem 'autoprefixer-rails'
@@ -13,7 +13,7 @@ gem 'haml'
 gem 'jbuilder'
 gem 'jquery-rails'
 gem 'masonry-rails'
-gem 'nokogiri', '>= 1.11.0.rc4'
+gem 'nokogiri'
 gem 'paperclip'
 gem 'pg'
 gem 'rails'
