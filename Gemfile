@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-ruby '2.7.3'
+ruby '3.0.0'
 
 gem 'acts_as_votable'
 gem 'autoprefixer-rails'
@@ -16,7 +16,7 @@ gem 'masonry-rails'
 gem 'nokogiri'
 gem 'paperclip'
 gem 'pg'
-gem 'rails'
+gem 'rails', '~> 6.1', '>= 6.1.6'
 gem 'sass-rails'
 gem 'sdoc', group: :doc
 gem 'simple_form'
