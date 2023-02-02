@@ -10,4 +10,3 @@ module URI
     url
   end
 end
-
