@@ -1,13 +1,14 @@
-class PinsController < ApplicationController
+# frozen_string_literal: true
 
-  before_action :find_pin, only: [:show, :edit, :update, :destroy, :upvote]
-  before_action :authenticate_user!, except: [:index, :show]
+# Pins Controller
+class PinsController < ApplicationController
+  before_action :find_pin, only: %i[show edit update destroy upvote]
+  before_action :authenticate_user!, except: %i[index show]
   def index
     @pins = Pin.all.order('created_at DESC')
   end
 
-  def show
-  end
+  def show; end
 
   def new
     @pin = current_user.pins.build
@@ -22,8 +23,7 @@ class PinsController < ApplicationController
     end
   end
 
-  def edit
-  end
+  def edit; end
 
   def update
     if @pin.update pin_params
@@ -52,5 +52,4 @@ class PinsController < ApplicationController
   def find_pin
     @pin = Pin.find params[:id]
   end
-
 end

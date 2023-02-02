@@ -22,15 +22,15 @@ If, when running ```bundle install```, you come up with any errors, delete the '
 
 ### Technologies used:
 
-* Ruby 2.7.X
+* Ruby 3.1.X
 * Rails 6.1.X
 * PostgreSQL 12.6
-* Haml 5.2.X
+* Haml 6.1.X
 * Bootstrap-Sass 3.4.X
 * Autoprefixer Rails 9.4.7
-* Simple Form 5.1.X
+* Simple Form 5.2.X
 * PaperClip 6.1.0
-* Devise 4.7.X
+* Devise 4.8.X
 * Masonry Rails 0.2.4
 * Act as Votable 0.12.0
 
